@@ -21,7 +21,7 @@ Route::get('/', function () {
 });
 
 Route::get('/news/{news?}', function ($news='') {
-    return 'Halaman News ' .$news;
+    return 'news ' .$news;
 });
 
 Route::prefix('/category')->group(function(){
